@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import panelAdd from '@iconify/icons-uil/panel-add';
 import cellIcon from '@iconify/icons-uil/cell';
 import bookOpen from '@iconify/icons-uil/book-open';

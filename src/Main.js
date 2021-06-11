@@ -23,7 +23,7 @@ class Main extends Component {
         <div className="row nav-bg no-mg">
             <div className="col-md-9 mx-auto">
                 <nav className="navbar navbar-light sc-navbar no-pd-rg-lf">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand">
                         <NavLink to="/id/">
                             <img src={Logo} height="60" alt={"Logo"}></img>
                         </NavLink>

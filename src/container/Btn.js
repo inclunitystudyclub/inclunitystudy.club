@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import angleRightB from '@iconify/icons-uil/angle-right-b';
 
 class Btn extends Component{

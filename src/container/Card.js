@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import calendarAlt from '@iconify/icons-uil/calendar-alt';
 import clockIcon from '@iconify/icons-uil/clock';
 import angleRightB from '@iconify/icons-uil/angle-right-b';

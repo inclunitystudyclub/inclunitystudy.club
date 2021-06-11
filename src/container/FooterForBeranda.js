@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LogoInclunityFull from "../assets/logo-inclunity.png";
 import ListPoint from "./ListPoint";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import locationPinAlt from '@iconify/icons-uil/location-pin-alt';
 import graduationCap from '@iconify/icons-uil/graduation-cap';
 
