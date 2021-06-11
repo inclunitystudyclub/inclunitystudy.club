@@ -1,0 +1,84 @@
+@media screen and (min-width: 240px) and (max-width: 812px) {
+    
+    .sc-illust-hide {
+        display: none;
+    }
+
+    .sc-navbar-mob {
+        display: none !important;
+    }
+
+    .col-md-7 {
+        padding: 0 15px 0 !important;
+    }
+
+    .sc-section-content {
+        padding: 4rem 0 2rem !important;
+    }
+
+    .sc-landingpage h2 {
+        font-size: 40px;
+    }
+
+    .sc-section-container h2 {
+        line-height: 4rem;
+    }
+
+    .sc-btn2 {
+        margin-top: 0px;
+    }
+
+    .sc-section-container h3 {
+        font-size: 30px;
+    }
+
+    .sc-section-container p {
+        font-size: 16px;
+    }
+
+    .sc-card-box {
+        max-width: 90% !important;
+        margin: 10px auto 10px;
+    }
+
+    .sc-card-row-mob {
+        margin: 0 !important;
+    }
+
+    .sc-row-mob {
+        margin: 0 !important;
+    }
+
+    .sc-listpoint-desc {
+        padding-left: 25px !important;
+    }
+
+    .sc-btn-for-alur {
+        margin-top: 20px
+    }
+
+    .pd-lf-30 { /*non 30px Padding Left in Mobile*/
+        padding-left: 15px !important;
+        padding-top: 30px;
+    }
+    .sc-beforefooter {
+        display: block;
+    }
+
+    .sc-logo-beforefooter {
+        height: 90px;
+    }
+
+    .sc-listpoint-desc {
+        max-width: 90% !important;
+    }
+
+    .sc-mob-listpoint-content {
+        margin-top: 3rem;
+    }
+
+    .sc-bottom-copyright {
+        font-size: 16px;
+    }
+
+}

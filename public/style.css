@@ -1,0 +1,381 @@
+/* -------------------------------- Default Setup -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap'); 
+
+html, body, a, div, section, h1, h2, h3, h4, h5, h6, p, li {
+    font-family: 'Manrope' !important;
+}
+
+html, body {
+    /* transition: 0.7s; */
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F0F4FF !important;
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------------- Own System Style -------------------------------- */
+
+.container {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+.nav-bg {
+    background-color: #13294B;
+}
+
+.no-pd {
+    padding: 0 !important;
+}
+
+.no-pd-rg {
+    padding-right: 0;
+}
+
+.no-pd-rg-lf {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.no-mg {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.no-mg-tp {
+    margin-top: 0 !important;
+}
+
+.mg-bt-0-4rem {
+    margin-bottom: .4rem !important;
+}
+
+.pd-lf-30 {
+    padding-left: 30px !important;
+}
+
+.sc-pd-top-2rem {
+    padding-top: 2rem !important;
+}
+
+.sc-pd-top-8rem {
+    padding-top: 8rem !important;
+}
+
+.sc-pd-bot-8rem {
+    padding-bottom: 8rem !important;
+}
+
+.sc-bg-color {
+    background-color: #F0F4FF;
+}
+
+.white-color-text {
+    color: #ffffff !important;
+}
+
+/* -------------------------------- Own Design Style -------------------------------- */
+
+.sc-navbar a {
+    color: #ffffff;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.sc-navbar a:hover{
+    color: #FECD48;
+    text-decoration: none;
+}
+
+.sc-btn1 {
+    border: 2px #FFF solid;
+    padding: 10px;
+    border-radius: 100px;
+    width: 150px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.sc-btn1:hover{
+    color: #13294B;
+    background: #FECD48;
+    border: 2px #FECD48 solid;
+    text-decoration: none !important;
+}
+
+.sc-btn2 {
+    border: 2px #FF7F41 solid;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.5s;
+    text-align: center;
+    color: #FF7F41 !important;
+    text-decoration: none !important;
+    display: block;
+    width: 230px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-btn2 text {
+    font-size: 0 !important;
+    transition: .4s;
+    color: #FF7F41;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-btn2:hover{
+    color: #ffffff !important;
+    background: #FF7F41;
+    border: 2px #FF7F41 solid;
+    text-decoration: none !important;
+}
+
+.sc-btn2:hover text {
+    font-size: 25px !important;
+    color: #ffffff;
+    margin-right: -15px;
+}
+
+.sc-navbar {
+    padding: 1.5rem 1rem;
+}
+
+.sc-d-flex {
+    display: flex;
+}
+
+.sc-landingpage {
+    padding: 4rem 0 7rem;
+}
+
+.sc-landingpage h2 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.sc-landingpage p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.sc-landindpage-btn {
+    display: block;
+    width: 200px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.sc-section-container h2, .sc-section-container p {
+    color: #13294B;
+}
+
+.sc-section-container h2 {
+    margin-bottom: 2rem;
+    line-height: 5rem;
+}
+
+.sc-section-container h3 {
+    color: #13294B;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sc-text-center h3, .sc-text-center p{
+    text-align: center;
+}
+
+.sc-incluname {
+    background: #13294B;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    padding: .1rem 1rem;
+    border-radius: 15px;
+}
+
+.sc-incluname-yellow {
+    color: #FECD48;
+}
+
+.sc-section-container p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sc-section-content {
+    padding: 4rem 0 4rem;
+}
+
+.sc-card {
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(40, 46, 68, 0.1);
+}
+
+.sc-card-box {
+    max-width: 31% !important;
+}
+
+.sc-card-thumb {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: .5s;
+}
+
+.sc-card-box:hover .sc-card-thumb {
+    background-size: 120% 120%;
+    background-position: center;
+    filter: opacity(60%)
+}
+
+.sc-card-content {
+    padding: 1.6rem;
+}
+
+.sc-card-content h4 {
+    font-weight: 800;
+    color: #13294B;
+    font-size: 22px;
+}
+
+.sc-card-content p {
+    display: flex;
+    margin-top: 1.2rem;
+    align-items: center;
+}
+
+.sc-card-content-text {
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.sc-card-btn {
+    width: 100%;
+    height: 70px;
+    border-radius: 30px;
+    background: #FF7F41;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sc-card-btn:hover {
+    background: #55433B;
+}
+
+.sc-card-btn text {
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-card-btn section {
+    font-size: 0 !important;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.sc-card-btn:hover section {
+    font-size: 30px !important;
+    color: #ffffff;
+    margin-right: -15px;
+}
+
+.sc-listpoint {
+    padding: 5px 0 5px 0;
+}
+
+.sc-listpoint-desc {
+    color: #13294B;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.sc-listpoint-icon {
+    align-self: center;
+}
+
+.sc-beforefooter-bg {
+    background: #45567C;
+}
+
+.sc-beforefooter {
+    padding: 4rem 0 4rem;
+}
+
+.sc-logo-beforefooter {
+    height: 130px;
+}
+
+.sc-beforefooter h3 {
+    color: #ffffff;
+    margin-bottom: .5rem;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sc-beforefooter p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.sc-beforefooter text {
+    color: #FECD48;
+    font-weight: 800;
+}
+
+.sc-footer-bg {
+    background: #13294B;
+}
+
+.sc-bottom-copyright {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.sc-bottom-copyright text {
+    color: #FECD48;
+    font-weight: 800;
+}
+
